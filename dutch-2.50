@@ -1,0 +1,413 @@
+<?php
+
+$strings = array(
+
+#Author
+	"author" => "<a href=\"http://about.me/int0x76 \">int0x76</a>",
+
+#Navbar
+	"navbar-status" => "Status",
+	"navbar-configuration" => "Configuratie",
+	"navbar-advanced" => "Geavanceerd",
+	"navbar-usb" => "USB",
+	"navbar-jobs" => "Taken",
+	"navbar-3g" => "3G",
+	"navbar-ssh" => "SSH",
+	"navbar-scripts" => "Scripts",
+	"navbar-logs" => "Logs",
+	"navbar-upgrade" => "Bijwerken",
+	"navbar-resources" => "Resources",
+	"navbar-modules" => "Pineapple Bar",
+	"navbar-about" => "Over",
+
+
+#Status
+	"status-interfaces" => "Interfaces",
+	"status-poe" => "POE / LAN Poort:",
+	"status-3g" => "USB 3G Modem:",
+	"status-wan" => "WAN / LAN Port:",
+	"status-public" => "Publiek Internet:",
+	"status-reveal" => "toon publieke ip",
+	"status-connectionError" => "Fout bij verbinding",
+
+	"status-services" => "Services",
+	"status-enabled" => "ingeschakeld",
+	"status-disabled" => "uitgeschakeld",
+	"status-start" => "Start",
+	"status-stop" => "Stop",
+	"status-edit" => "Wijzigen",
+	"status-enable" => "Inschakelen",
+	"status-disable" => "Uitschakelen",
+	"status-connect" => "Verbinden",
+	"status-disconnect" => "Verbreken",
+	"status-online" => "online",
+	"status-offline" => "offline",
+
+	"status-karma" => "Karma / Status verbinding",
+	"status-genReport" => "Genereer gedetailleerd rapport",
+	"status-report" => "Gedetailleerd rapport",
+	"status-dismiss" => "Afwijzen",
+	"status-reportWarning" => "CPU Intensief. Genereer geen rapporten direct achter elkaar",
+
+
+#Configuration
+	"config-updated" => "Bijgewerkt",
+	"config-message-persistent" => "Wijziging aan SSID is blijvend veranderd",
+	"config-message-ssidChange" => "Karma SSID gewijzigd in",
+	"config-message-added" => "is toegevoegd aan de lijst",
+	"config-message-removed" => "is verwijderd van de lijst",
+
+	"config-karmaConfig" => "Karma configuratie"",
+	"config-karmaConfig-ssid" => "Wijzig Karma SSID",
+	"config-karmaConfig-ssid-persistent" => "Blijvend?",
+	"config-karmaConfig-ssid-button" => "Wijzig SSID",
+	"config-karmaConfig-ssid-bw" => "SSID Black en White listing",
+	"config-karmaConfig-ssid-bw-change" => "wijzig",
+	"config-karmaConfig-ssid-bw-mode" => "Huidige modus:",
+	"config-karmaConfig-ssid-bw-add" => "Voeg toe aan lijst",
+	"config-karmaConfig-ssid-bw-remove" => "Verwijder van lijst",
+	"config-karmaConfig-mac" => "Client Black Listing",
+	
+	"config-language-title" => "Wijzig taal",
+	"config-language-current" => "De huidige taal is",
+	"config-language-how" => "Kies een nieuwe taal uit het dropdown menu",
+	"config-language-button" => "Wijzig taal",
+	"config-language-message" => "Taal gewijzigd in",
+	"config-language-message2" => "Moment aub, the pagina zal herladen.",
+	"config-language-update" => "Bijwerken taalpakket",
+	"config-language-error" => "Fout! Geen internetverbinding beschikbaar.",
+	"config-language-success" => "Taalpakket is bijgewerkt.",
+
+	"config-button-title" => "Reset en WPS Knop Configuratie",
+	"config-button-resetEnabled" => "ingeschakeld",
+	"config-button-resetDisabled" => "uitgeschakeld",
+	"config-button-resetEnable" => "Inschakelen",
+	"config-button-resetDisable" => "Uitschakelen",
+	"config-button-wpsButton" => "WPS Script bijwerken",
+
+	"config-dnsspoof-title" => "DNS Spoof Configuratie",
+	"config-dnsspoof-description" => "Configureerd nieuw doel IP voor het domein. Mag een wildcard bevatten zoals *.example.com.",
+	"config-dnsspoof-button" => "Update Spoofhost",
+
+	"config-landing-title" => "Bezoekerspagina (Phishing)",
+	"config-landing-description" => "Bezoekerspagina. De landingspagina voor Spoofhost. PHP is toegestaan.",
+	"config-landing-button" => "Bezoekerspagina bijwerken",
+
+	"config-css-title" => "CSS Editor",
+	"config-css-button" => "CSS bijwerken",
+
+
+#Advanced
+	
+	"advanced-cacheCleared" => "Cache geleegd",
+	"advanced-resetComplete" => "De pineapple is gereset. Herstart a.u.b.",
+	
+        "advanced-clearCache" => "Leeg Pineapple Cache",
+        "advanced-factoryReset" => "Fabrieks Instellingen",
+        "advanced-reboot" => "Herstarten",
+
+	"advanced-executeCommands" => "Voer opdrachten uit",
+	"advanced-execute" => "Voer opdrachten uit",
+	"advanced-executing" => "Uitvoeren",
+
+	"advanced-routing-title" => "Routeringstabel",
+	"advanced-routing-button" => "Routeringstabel" bijwerken",
+	"advanced-routing-example" => "Voorbeeld:",
+	"advanced-routing-execute" => "Uitvoeren",
+
+	"advanced-network-title" => "Netwerk gereedschappen",
+	"advanced-ping" => "Ping",
+	"advanced-traceroute" => "Traceroute",
+
+	"advanced-password-title" => "Wijzig Root wachtwoord",
+	"advanced-password" => "Wachtwoord:",
+	"advanced-password-repeat" => "Herhaal wachtwoord:",
+	"advanced-password-button" => "Wijzig wachtwoord",
+	"advanced-password-success" => "Wachtwoord succesvol gewijzigd",
+	"advanced-password-note" => "Let op: De pineapple moet herstart worden voordat de wijzigingen actief worden in de interface",
+	"advanced-password-unsuccessful" => "Het wijzigen van het wachtwoord is niet geslaagd. Zorg dat de wachtwoordenn gelijk zijn.",
+
+
+#USB
+
+	"usb-fileUpdate" => "Updated",
+	"usb-lsusb" => "lsusb Output",
+	"usb-fstab" => "fstab Configuration",
+	"usb-fstab-button" => "Update fstab",
+
+
+#Jobs
+
+	"jobs-fileUpdated" => "Bijgewerkt",
+	"jobs-title" => "Cron Opties",
+	"jobs-cronjobs" => "Cron Jobs zijn momenteel",
+	"jobs-cronjobs-enabled" => "ingeschakeld",
+	"jobs-cronjobs-disabled" => "uitgeschakeld",
+	"jobs-cronjobs-enable" => "Inschakelen",
+	"jobs-cronjobs-disable" => "Uitschakelen*",
+
+	"jobs-cronjobs-title" => "Cron Jobs",
+	"jobs-cronjobs-button" => "Crontab bijwerken",
+
+	"jobs-help-title" => "Help",
+	"jobs-help" => "Cronjob configuratie.
+
+	* * * * * opdracht om uit te voeren
+	- - - - -
+	| | | | |
+	| | | | +- - - - dag v.d. week (0 - 6) (zondag=0)
+	| | | +- - - - - maand (1 - 12)
+	| | +- - - - - - dag v.d. maand (1 - 31)
+	| +- - - - - - - uur (0 - 23)
+	+- - - - - - - - minuut (0 - 59)
+	
+	Examples:
+	
+	Voer myscript.sh uit elke dag om 2:30 AM
+	30 2 * * * /root/myscript.sh
+	
+	Voer myscript.sh elke 15 minuten uit
+	*/15 * * * * /root/myscript.sh",
+
+#3G
+	"3g-fileUpdate" => "Bijgewerkt",
+
+	"3g-force-message" => "Poging tot 3G verbinding. Dit kan enkele minuten duren, vernieuw de pagina voor de status.",
+	"3g-force-logs" => "Logs",
+	"3g-force-details" => "voor details.",
+
+	"3g-keepAlive-message" => "3G Keep Alive script toegevoegd aan Cron Jobs. Schakel de Cron Daemon in van",
+	"3g-keepAlive-jobs" => "Taken",
+
+	"3g-boot" => "3G bij opstarten is momenteel",
+	"3g-keepAlive" => "Keep Alive is momenteel",
+	"3g-enabled" => "ingeschakeld",	
+	"3g-disabled" => "uitgeschakeld",
+	"3g-enable" => "Inschakelen",
+	"3g-disable" => "Uitschakelen",
+	"3g-force" => "Forceren",
+	"3g-force-warning" => "verbinding nu. Dit voerd het onderstaande 3G script nu uit, waarschijnlijk zonder reboot.",
+	"3g-force-experimental" => "Experimenteel",
+
+	"3g-usbConnections" => "USB verbindingen",
+	
+	"3g-config-title" => "Mobile Broadband configuratie",
+	"3g-config-button" => "3G Script bijwerken",
+
+	"3g-interfaces" => "Interfaces",
+	
+	"3g-help-title" => "Help",
+"3g-help-content" => "Wanneer ingeschakeld zal dit script bij het opstarten uitgevoerd. Dit kan ook geforceerd worden.
+Mobiel Breedband vereist een compatible USB 3G / 4G modem.
+
+De verbinding bestaat uit 2 fases. Eerst moet het modem worden geactiveerd, erna zal de netwerk configuratie opties goed zetten die worden gebruikt door pppd en gchat.
+Omdat de meeste 3G / 4G modems zich voordoen als CD-ROM of USB massa opslag, zal een activatie script meestal gebruik makend van usb_modeswitch of sdparm uitgevoerd worden.
+Activatie zorgt ervoor dat het USB apparaat zijn modem toont.
+
+Het modem is geconfigureerd als een USB Serial device, meestal /dev/ttyUSB0, welke benaderd word door de netwerk configuratie.
+De netwerk configuratie specificeerd de interface als WAN2. GSM en CDMA protocollen worden ondersteund. ifconfig toont de interface meestal als 3g-wan2.
+Pppd is verantwoordelijk voor het maken van de point-to-point verbinding met het USB Seriele apparaat. Configuratie hiervan is in /etc/ppp/options
+Comgt is verantwoordelijk voor de verbinding met het modem. EVDO en 3G (GSM) modem commandos staan in /etc/chatscripts/
+Meestal hoeft geen van deze bestanden worden aangepast.
+
+Ondersteuning voor modems niet op de lijst is experimenteel, je kunt hulp zoeken op het Jasager forum. De meeste USB modems delen een zelfde configuratie.
+
+Bijgewerkte 3G verbindings scripts met meer modem ondersteuning kunnen worden gevonden op wifipineapple.com
+Optioneel is er een 3G-KeepAlive script beschikbaar welke periodiek checkt op internet toegang en deze anders hersteld.
+Dit word gedaan door 3 keer te pingen naar 8.8.8.8. Wanneer dit niet lukt word \"ifup wan\ uitgevoerd.",
+
+
+#SSH
+
+        "ssh-fileUpdate" => "Bijgewerkt",
+	"ssh-deleteKey-message" => "SSH Key Pair Verwijderd van",
+	"ssh-generateKey-message" => "SSH Key Pair Gegenereerd en opgeslagen in",
+	"ssh-keepAlive-enabled" => "SSH Keep Alive script toegevoegd aan Cron Jobs. Schakel de Cron Daemon in van",
+	"ssh-jobs" => "Taken",
+
+	"ssh-options" => "SSH Opties",
+	"ssh-boot" => "SSH bij opstarten is momenteel",
+	"ssh-persist" => "SSH Persist is momenteel",
+	"ssh-session" => "SSH sessie momenteel",
+	"ssh-enable" => "Inschakelen",
+	"ssh-disable" => "Uitschakelen",
+	"ssh-enabled" => "ingeschakeld",
+	"ssh-disabled" => "uitgeschakeld",
+	"ssh-connected" => "verbonden",
+	"ssh-disconnected" => "verbroken",
+	"ssh-connect" => "Verbind",
+	"ssh-disconnect" => "Verbreek",
+
+	"ssh-connectCommand" => "SSH Verbindings Commando",
+	"ssh-connectCommand-button" => "Opslaan",
+
+	"ssh-publicKey" => "Public Key",
+	"ssh-publicKey-note" => "Dat word meestal opgeslagen in %h/.ssh/authorized_keys op de externe computer",
+	"ssh-publicKey-noKey" => "Geen key?",
+	"ssh-publicKey-generate" => "Genereren",
+	"ssh-publicKey-delete" => "Verwijderen",
+	"ssh-publicKey-delete-note" => "bestaande RSA SSH key pair",
+	"ssh-knownHosts" => "Bekende Hosts",
+	"ssh-knownHosts-button" => "Update Bekende Hosts",
+
+	"ssh-help" => "Help",
+	"ssh-help-content" => "
+<b>Op de lokale host (deze pineapple)</b>
+ - Genereer een RSA key pair. De private key word opgeslagen in /etc/dropbear/id_rsa
+ - Noteer de RSA public key hierboven. Je hebt het stuk van \"ssh-rsa\" tot \"root@Pineapple\"
+ - Voeg de clients ssh-rsa public key (niet de public key hierboven) toe aan ~/.ssh/known_hosts
+   - Dit kun je het makkelijkste doen met 'ssh user@host' en vervolgens 'y' te antwoorden wanneer er gevraagd word de key op te slaan
+   - Dit moet interactief gebeuren (via een shell op dit apparaat) omdat AutoSSH de '-y' optie niet doorgeeft.
+
+<b>Op de externe host (de server)</b>
+ - Voeg de bovenstaande RSA public key toe aan het authorized_keys bestand. Deze is meestal in ~/.ssh/ te vinden.
+ - Onderstaande zijn handige opensshd configuratie opties. Het configuratie bestand is meestal /etc/ssh/sshd_config
+        AllowTcpForwarding   yes
+        GatewayPorts         yes
+        RSAAuthentication    yes
+        PubkeyAuthentication yes
+
+<b>Voorbeeld</b>
+
+<b>Simpele Relay Server</b>
+Met de bovenstaande key uitwisseling en SSH configuratie klaar, kunnen we een SSH sessie door de relay server starten
+ - Pineapple's SSH commando: autossh -M 20000 -f -N -R 4255:localhost:22 user@relayserver -i /etc/dropbear/id_rsa
+ - Externe host SSH commando: ssh pineappleuser@relayserver -p 4255
+   - De pineapple gebruikersnaam is meestal root
+   - Als de relay server geen externe port forwarding ondersteund, SSH dan eerst normaal naar de relay server en doe dan:
+     ssh pineappleuser@localhost -p 4255
+",
+	
+
+#Scripts
+
+        "scripts-fileUpdate" => "Bijgewerkt",
+
+	"scripts-boot-title" => "Uitvoeren tijden opstarten",
+	"scripts-boot-button" => "rc.local bijwerken",
+
+	"scripts-cleanup-title" => "Clean-Up Script",
+	"scripts-cleanup-button" => "Clean-Up Script",
+
+	"scripts-ssh-title" => "SSH Keep Alive Script",
+	"scripts-ssh-button" => "SSH Keep Alive Script bijwerken",
+
+	"scripts-3g-title" => "3G Keep Alive Script",
+	"scripts-3g-button" => "3G Keep Alive Script bijwerken",
+
+	"scripts-user-title" => "User Script",
+	"scripts-user-button" => "User Script bijwerken",
+
+
+
+
+#Logs
+	"logs-refresh" => "vernieuwen",
+	"logs-dnsspoof-title" => "DNS Spoof Log",
+	"logs-urlsnarf-title" => "URLsnarf Log",	
+	"logs-syslog-title" => "Systeem Log",
+
+
+#Upgrade
+
+	"upgrade-connectError" => "Fout met verbinden. Zorg ervoor dat je een werkende verbinding hebt!",
+	"upgrade-found" => "Upgrade gevonden",
+	"upgrade-download" => "Download",
+	"upgrade-notFound" => "Geen upgrade gevonden.",	
+	"upgrade-complete" => "Upgrade voltooid!",
+
+	"upgrade-fileError" => "Fout, check het bestand dat je hebt geselecteerd.",
+	"upgrade-nameError" => "Het upgrade bestand moet upgrade.bin heten",
+	"upgrade-md5Error" => "Fout, de MD5Sum komt niet overeen!",
+	
+	"upgrade-working" => "Upgrade is bezig!<br />Even wachten aub, verlaat of vernieuw de pagina niet.<br />De pineapple zal herstarten als de upgrade compleet is en deze pagina vernieuwen!",
+
+	"upgrade-check-title" => "Controleer voor updates",
+	"upgrade-check-link" => "Controleer voor updates",
+	"upgrade-firmware" => "De huidige firmware versie is",
+	"upgrade-reflash" => "opnieuw flashen",
+	
+	"upgrade-doUpgrade-title" => "Voer upgrade uit",
+	"upgrade-doUpgrade-confirm" => "Weet je zeker dat je wilt upgraden? Lees eerst de waarschuwing hieronder. Onthoud dat je alle wijzigingen verliest.",
+	"upgrade-doUpgrade-button" => "Bijwerken",
+
+	"upgrade-warning-title" => "Waarchuwing",
+	"upgrade-warning" => "Herstart de WiFi Pineapple and schakel Karma, SSH, 3G en andere diensten uit.
+Onder de meeste omstandigheden kan er niks mis gaan, maar:
+ - De Bootloader herstel opties kunnen alleen serieel benaderd worden.
+ - Flash de firmware NIET als de pineapple op batterijen draait.
+ - Flash de firmware NIET als je weinig beschikbaar geheugen hebt.
+ - Flash de firmware NIET via een WiFi verbinding.
+",
+
+	"upgrade-memory" => "Geheugen",
+
+	"upgrade-ota-md5" => "Downloaden is mislukt. Probeer het opnieuw!<br /><br />",	
+	"upgrade-ota-downloaded" => "Firmware is gedownload.<br /><br />",
+	"upgrade-ota-downloading" => "Downloading..<br />Deze pagina niet verlaten of herladen. De pagina zal automatisch bijgewerkt worden en de upgrade starten.",
+	"upgrade-ota-connectionError" => "Geen verbinding! Controlleer uw aansluiting.<br /><br />",
+
+
+#Resources
+	
+	"resources-memory" => "Beschikbaar geheugen",
+	"resources-memory-experimental" => "Experimenteel",
+	"resources-dropCachesExecuted" => "Opdracht drop_caches is uitgevoerd",
+
+	"resources-diskUsage" => "Schijf gebruik",
+
+	"resources-lsusb" => "lsusb uitvoer",
+
+	"resources-processes" => "Processen",
+
+
+#Pineapple Bar
+
+	"modules-sizeWarning" => "Waarschuwing, je hebt of minder dan 70kb vrije ruimte over of de infusie heeft meer ruimte nodig dan je beschikbaar hebt.<br />Het installaren van een infusie naar het main memory is niet toegestaan.",
+	"modules-usbInstall" => "Installeer naar USB",
+
+	"modules-install-title" => "Infusie Installatie",
+	"modules-install-notification" => "Je staat op het punt de infusie te installeren",
+	"modules-install-destQuestion" => "Waar wil je de infusie naar installeren?",
+	"modules-install-internal" => "Interne Opslag",
+	"modules-install-external" => "USB Opslag",
+	"modules-install-md5error" => "MD5 fout. Probeer nogmaals de infusie te installeren",
+		
+	"modules-js-pleaseWait" => "Even geduld je word ge-redirect",
+	"modules-js-installed" => "Infusie installatie geslaagd",
+	"modules-js-removed" => "Infusie succesvol verwijderd",
+	"modules-js-updated" => "Infusie succesvol bijgewerkt",
+	"modules-js-updateAlert" => "Een van de infusies is niet up-to-date.\\nKijk hieronder voor een beschikbare update!",
+	
+	"modules-installed-title" => "Geinstalleerde Infusies",
+	"modules-installed-noModules" => "Er zijn geen infusies geinstalleerd.",
+	
+	"modules-table-name" => "Naam",
+	"modules-table-version" => "Versie",
+	"modules-table-author" => "Auteur",
+	"modules-table-description" => "Beschrijving",
+	"modules-table-size" => "Groote",
+	"modules-table-location" => "Locatie",
+	"modules-table-action" => "Actie",
+	
+	"modules-links-remove" => "Verwijderen",
+	"modules-links-supportLink" => "Ondersteunings Link",
+	"modules-links-unpin" => "Unpin van navbar",
+	"modules-links-pin" => "Pin op navbar",
+	"modules-links-launch" => "Uitvoeren",
+	"modules-links-update" => "Update",
+	"modules-links-install" => "Installeer",
+
+	"modules-available-title" => "Beschikbare Infusies",
+	"modules-available-list" => "Lijst van beschikbare infusies (aka modules)",
+	"modules-available-warning" => "Waarschuwing: Dit zal een verbinding tot stand brengen met cloud.wifipineapple.com.",
+	"modules-available-error" => "Fout bij verbinding!<br />Zorg ervoor dat je een verbinding hebt met het internet.",	
+
+
+#About
+#This will stay in english for now
+#as it will be re-designed soon.
+
+);
+
+?>
